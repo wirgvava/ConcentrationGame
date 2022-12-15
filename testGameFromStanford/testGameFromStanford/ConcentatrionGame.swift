@@ -46,13 +46,13 @@ class Concentration {
             cards += [card, card]
         }
         
-//        var lastCardIndex = cards.count - 1;
-//        
-//        while lastCardIndex > 0 {
-//            let randomIndex = Int(arc4random_uniform(UInt32(lastCardIndex)))
-//            cards.swapAt(randomIndex, lastCardIndex)
-//            lastCardIndex -= 1
-//        }
+        var lastCardIndex = cards.count - 1;
+        
+        while lastCardIndex > 0 {
+            let randomIndex = Int(arc4random_uniform(UInt32(lastCardIndex)))
+            cards.swapAt(randomIndex, lastCardIndex)
+            lastCardIndex -= 1
+        }
         
     }
     
